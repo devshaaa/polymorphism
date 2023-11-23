@@ -1,14 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package shaina;
 
-/**
- *
- * @author Admin
- */
-public class Polymorphism_Desert {
+public class Polymorphism_Desert extends Polymorphism_Fruits {
+   public void myFavorite(){
+        System.out.println("desert ");
+    }
     
 }
